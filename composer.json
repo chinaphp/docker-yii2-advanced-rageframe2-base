@@ -52,7 +52,8 @@
         "phpoffice/phpspreadsheet": "^1.3",
         "ext-curl": "*",
         "warrence/yii2-kartikgii": "dev-master",
-      "ext-json": "*"
+      "ext-json": "*",
+      "vlucas/phpdotenv": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
