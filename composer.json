@@ -53,7 +53,7 @@
         "ext-curl": "*",
         "warrence/yii2-kartikgii": "dev-master",
       "ext-json": "*",
-      "vlucas/phpdotenv": "^3.3"
+        "vlucas/phpdotenv": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -68,14 +68,10 @@
             "enabled": false
         }
     },
-    "repositories": [
-        {
+    "repositories": {
+        "packagist": {
             "type": "composer",
             "url": "https://packagist.laravel-china.org"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
         }
-    ]
+    }
 }
